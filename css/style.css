@@ -1,0 +1,609 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 850px;
+	margin:0 auto;
+}
+.center{
+	margin: 0 auto;
+}
+
+.clean{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 620px;
+	padding: 40px 2%;
+	max-height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../imagens/web.jpg');
+}
+
+div.flex1{
+	display: flex;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.img-logo{
+	width: 20%;
+	height: 50px;
+	z-index: 3;	
+}
+.logo{
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 40px;
+	margin-left: -20px;
+	background-image: url('../imagens/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+
+.menu-mobile{
+	display: none;
+	width: 80%;
+	margin-top: 10px;
+	text-align: right;
+	z-index: 0;
+}
+.menu-mobile ul{
+	display: none;
+	list-style-type: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 85px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+}
+.menu-mobile ul li{
+	padding-top: 10px;
+	padding: 10px 0;
+}
+.menu-mobile li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.menu-mobile li a:hover{
+	font-size: 16px;
+	font-weight: bold;
+	color: orange;		
+	}
+
+.menu-mobile .rede{
+	float: right;
+	padding: 0 10px;
+}
+.menu-mobile .rede a{
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.menu-mobile > i{
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+.menu{
+	width: 70%;
+	padding-top: 10px;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+}
+.menu .rede{
+	float: right;
+	margin-top: -30px;
+	margin-right: -50px;
+}
+.menu .rede a{
+	text-decoration: none;
+	margin-right: 5px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.bottom{
+	width: 15%;
+	padding: 3px 0;
+	border-bottom: 2px solid #F36C20;
+	text-align: center;
+}
+
+/*Banner*/
+div.banner .flex1{
+	margin-top: 200px;
+}
+
+div.banner .texto{
+	width: 50%;
+	height: 200px;
+}
+div.banner .texto h2, h3{
+	font-size: 55px;
+	color: white;
+}
+div.banner .texto h3{
+	margin-top: -30px;
+}
+div.banner .texto p{
+	color: #8D8E90;
+	font-weight: bold;
+}
+
+div.banner .img{
+	width: 50%;
+	height: 200px;
+	margin-top: -40px;
+	background-image: url('../imagens/pulseiras.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+/*Section One*/
+
+section.one{
+	width: 100%;
+	height: 70px;
+	padding: 5px 2%;
+	background-color: #071B50;
+}
+section.one .texto{
+	width: 60%;
+	text-align: left;
+}
+section.one .texto h2{
+	font-size: 19px;
+	color: white;
+}
+section.one .texto p{
+	font-size: 13px;
+	color: #747A93;
+}
+
+section.one .botao{
+	width: 40%;
+	text-align: right;
+}
+section.one .btnTexto{
+	width: 50%;
+	max-width: 200px;
+	background-color: #102B79;
+	border-radius: 30px;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	float: right;
+}
+section.one .btnTexto a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Section Two*/
+
+section.two{
+	width: 100%;
+	height: 503px;
+	padding: 20px 2%;
+	background-color: #F6F6F6;
+}
+section.two .flex1{
+	margin: 40px 0;
+}
+
+section.two .bilhete{
+	width: 60%;
+	height: 478px;
+	background-image: url('../imagens/bilhete.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.two .texto{
+	width: 40%;
+	padding-top: 90px;
+}
+section.two .texto h1{
+	font-size: 10px;
+	color: #777;
+	letter-spacing: 3px;
+}
+section.two .texto h2{
+	font-size: 40px;
+	color: #777;
+	font-weight: normal;
+}
+section.two .texto h3{
+	font-size: 40px;
+	color: #595959;
+	margin-top: -10px;
+}
+
+section.two .texto p{
+	color: #777;
+	text-align: left;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+section.two .btn{
+	width: 50%;
+	max-width: 300px;
+	border: 1px solid #777;
+	border-radius: 30px;
+	font-size: 11px;
+	padding: 10px;
+	color: #777;
+	text-align: center;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+/*Section Tree*/
+section.tree{
+	width: 100%;
+	height: 330px;
+	background-image: url('../imagens/slide.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+section.tree .cover{
+	width: 100%;
+	height: 330px;
+	background-color: rgba(12,12,12,0.8);
+}
+
+section.tree .servicos{
+	width: 80%;
+	text-align: center;
+	padding-top: 50px; 
+}
+section.tree .servicos h1{
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: white;
+	padding: 10px 0;
+}
+section.tree .btn{
+	width: 50%;
+	max-width: 200px;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 30px auto;
+	background-color: #F36C21;
+	cursor: pointer;
+	font-size: 11px;
+}
+section.tree .btn a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+section.tree .servicos h2{
+	font-size: 35px;
+	line-height: 38px;
+	font-weight: normal;
+	color: white;
+}
+section.tree .seta{
+	width: 10%;
+}
+
+/*Section four*/
+
+section.four{
+	margin-top: 40px;
+}
+section.four .texto{
+	text-align: center;
+	margin-bottom: 10px;
+}
+section.four .texto h2{
+	font-size: 40px;
+	color: #747A93;
+	font-weight: normal;
+}
+section.four .texto p{
+	font-size: 14px;
+	color: #777;
+}
+
+section.four .info{
+	width: 33.3%;
+	padding: 10px;
+}
+section.four .img{
+	width: 100%;
+	max-width: 300px;
+	height: 125px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+section.four .txt h2{
+	font-size: 14px;
+	color: #5F5F5F;
+	margin-top: 20px;
+}
+section.four .txt p{
+	font-size: 11px;
+	color: #5F5F5F;
+	margin-top: 5px;
+}
+
+/*Botao*/
+
+.Botao{
+	width: 50%;
+	max-width: 200px;
+	padding: 10px;
+	border-radius: 30px;
+	margin: 30px auto;
+	background-color: #F36C21;
+	cursor: pointer;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+	top: 0;
+}
+
+.Botao a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+/*Section Five*/
+section.five{
+	width: 100%;
+	height: 250px;
+	background-color: rgba(12,12,12,0.8);
+	margin-top: -50px;
+}
+section.five .cover{
+	width: 100%;
+	background-image: url('../imagens/baner2.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+section.five .servicos{
+	text-align: center;
+	padding: 100px;
+}
+section.five .servicos h1{
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: white;
+	padding: 10px 0;
+}
+section.five .servicos h2{
+	font-size: 35px;
+	line-height: 38px;
+	font-weight: normal;
+	color: white;
+}
+
+/*Section Six*/
+
+section.six{
+	width: 100%;
+	height: 525px;
+	background-color: #000E4D;
+	padding: 50px 2%;
+}
+section.six .texto{
+	width: 55%;
+}
+section.six .logo2{
+	width: 50%;
+	height: 50px;
+	padding: 20px 0;
+	background-image: url('../imagens/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: 30px 0;
+	
+}
+section.six .txt1,section.six .contacto{
+	border-bottom: 2px solid #0B1E74;
+}
+section.six .txt1 p{
+	max-width: 350px;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	padding-bottom: 15px;
+}
+section.six .contacto{
+	display: flex;
+}
+section.six .contacto > .info{
+	width: 33.3%;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.six .contacto > .info h2{
+	font-size: 14px;
+	color: white;
+	padding-bottom: 5px;
+}
+section.six .contacto > .info p{
+	font-size: 13px;
+	color: white;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+section.six .txt2 p{
+	max-width: 400px;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	padding-top: 15px;
+}
+section.six .info a{
+	margin-top: 5px;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+section.six .espaco{
+	width: 5%;
+}
+
+section.six .form{
+	width: 40%;
+}
+section.six .form p{
+	font-size: 14px;
+	color: white;
+	padding: 10px 0;
+}
+section.six .form input[type=text],
+section.six .form input[type=text]{
+	width: 100%;
+	padding: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5F5F5F;
+	margin-bottom: 8px;
+	border: none;
+}
+section.six .form textarea{
+	width: 100%;
+	height: 130px;
+	padding-left: 15px;
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5F5F5F;
+	border: none;
+}
+section.six .form input[type=submit]{
+	width: 40%;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+/*Footer*/
+
+div.footer{
+	margin-top: 30px;
+	border-top: 2px solid #0B1E74;
+}
+div.footer p{
+	font-size: 12px;
+	color: #777;
+}
+div.footer .left{
+	width: 50%;
+	padding: 10px 0;
+	text-align: left;
+}
+div.footer .right{
+	width: 50%;
+	padding: 10px 0;
+	text-align: right;
+}
+
+
+@media screen and (max-width: 792px){
+
+	.menu-mobile{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	div.banner .flex1{
+		display: block;
+		margin-top: 70px;
+	}
+	div.banner .texto{
+		width: 100%;
+		height: 200px;
+		text-align: center;
+	}
+	div.banner .img{
+		width: 100%;
+		height: 200px;
+		margin-top: -10px;
+	}
+}
+
+@media screen and (max-width: 626px){
+
+	section.one{
+		height: 150px;
+	}
+	section.one .flex1{
+		display: block;
+	}
+	section.one .texto{
+		width: 100%;
+		text-align: center;
+	}	
+	section.one .botao{
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	}	
+	section.one .btnTexto{
+		float: none;
+		margin-left: 35%;
+	}	
+}

@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 850px;
+	margin:0 auto;
+}
+.center{
+	margin: 0 auto;
+}
+
+.clean{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 230px;
+	padding: 40px 2%;
+	max-height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url('../imagens/web.jpg');
+}
+
+div.flex1{
+	display: flex;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.img-logo{
+	width: 20%;
+	height: 50px;
+	z-index: 3;	
+}
+.logo{
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 40px;
+	margin-left: -20px;
+	background-image: url('../imagens/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+
+.menu-mobile{
+	display: none;
+	width: 80%;
+	margin-top: 10px;
+	text-align: right;
+	z-index: 0;
+}
+.menu-mobile ul{
+	display: none;
+	list-style-type: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 85px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 0;
+}
+.menu-mobile ul li{
+	padding-top: 10px;
+	padding: 10px 0;
+}
+.menu-mobile li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.menu-mobile li a:hover{
+	font-size: 16px;
+	font-weight: bold;
+	color: orange;		
+	}
+
+.menu-mobile .rede{
+	float: right;
+	padding: 0 10px;
+}
+.menu-mobile .rede a{
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.menu-mobile > i{
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+.menu{
+	width: 70%;
+	padding-top: 10px;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+}
+.menu .rede{
+	float: right;
+	margin-top: -30px;
+	margin-right: -50px;
+}
+.menu .rede a{
+	text-decoration: none;
+	margin-right: 5px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.bottom{
+	width: 18%;
+	padding: 3px 15px;
+	border-bottom: 2px solid #F36C20;
+	text-align: center;
+}
+
+/*Banner*/
+
+div.banner{
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	z-index: 0;
+}
+div.banner .texto{
+	padding: 20px 0;
+}
+div.banner .texto h2{
+	font-size: 30px;
+	color: white;
+}
+div.banner .bottom{
+	width: 30%;
+	max-width: 250px;
+	height: 5px;
+	background-color: #F36C20;
+	position: absolute;
+	top: 87px;
+	right: 300px;
+	border: none;
+}
+
+/*Section Two*/
+
+section.two{
+	width: 100%;
+	height: 800px;
+	padding: 40px 2%;
+	text-align: center;
+}
+section.two .container{
+	max-width: 950px;
+}
+
+section.two .texto{
+	padding: 5px 0;
+}
+section.two .texto h1{
+	font-size: 10px;
+	color: #777;
+	letter-spacing: 3px;
+}
+section.two .texto h2{
+	font-size: 40px;
+	color: #14275F;
+	font-weight: normal;
+}
+
+section.two .texto p{
+	width: 900px;
+	color: #777;
+	margin: 10px auto;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+section.two .banner1{
+	width: 100%;
+	padding: 10px 0;
+	height: 380px;
+	text-align: center;
+}
+
+section.two .banner1 .seta{
+	width: 5%;
+}
+section.two .trabalho{
+	width: 90%;
+	height: 350px;
+	background-image: url('../imagens/trabalho.png');
+	background-position: center;
+	background-size: cover;
+}
+
+section.two .banner2{
+	width: 100%;
+	max-width: 860px;
+	height: 135px;
+	padding: 0 auto;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+div.banner2 .flex1{
+	padding: 0;
+}
+section.two .trabalho-single{
+	width: 25%;
+	padding: 0 4px;
+}
+
+div.trabalho-single .wraper{
+	width: 100%;
+	height: 130px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*Section Six*/
+
+section.six{
+	width: 100%;
+	height: 525px;
+	background-color: #000E4D;
+	padding: 50px 2%;
+}
+section.six .texto{
+	width: 55%;
+}
+section.six .logo2{
+	width: 50%;
+	height: 50px;
+	padding: 20px 0;
+	background-image: url('../imagens/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: 30px 0;
+	
+}
+section.six .txt1,section.six .contacto{
+	border-bottom: 2px solid #0B1E74;
+}
+section.six .txt1 p{
+	max-width: 350px;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	padding-bottom: 15px;
+}
+section.six .contacto{
+	display: flex;
+}
+section.six .contacto > .info{
+	width: 33.3%;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+section.six .contacto > .info h2{
+	font-size: 14px;
+	color: white;
+	padding-bottom: 5px;
+}
+section.six .contacto > .info p{
+	font-size: 13px;
+	color: white;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+section.six .txt2 p{
+	max-width: 400px;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	padding-top: 15px;
+}
+section.six .info a{
+	margin-top: 5px;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+section.six .espaco{
+	width: 5%;
+}
+
+section.six .form{
+	width: 40%;
+}
+section.six .form p{
+	font-size: 14px;
+	color: white;
+	padding: 10px 0;
+}
+section.six .form input[type=text],
+section.six .form input[type=text]{
+	width: 100%;
+	padding: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5F5F5F;
+	margin-bottom: 8px;
+	border: none;
+}
+section.six .form textarea{
+	width: 100%;
+	height: 130px;
+	padding-left: 15px;
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5F5F5F;
+	border: none;
+}
+section.six .form input[type=submit]{
+	width: 40%;
+	padding: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+/*Footer*/
+
+div.footer{
+	margin-top: 30px;
+	border-top: 2px solid #0B1E74;
+}
+div.footer p{
+	font-size: 12px;
+	color: #777;
+}
+div.footer .left{
+	width: 50%;
+	padding: 10px 0;
+	text-align: left;
+}
+div.footer .right{
+	width: 50%;
+	padding: 10px 0;
+	text-align: right;
+}
+
+
+@media screen and (max-width: 792px){
+
+	.menu-mobile{
+		display: block;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	div.banner .flex1{
+		display: block;
+		margin-top: 70px;
+	}
+	div.banner .texto{
+		width: 100%;
+		height: 200px;
+		text-align: center;
+	}
+	div.banner .img{
+		width: 100%;
+		height: 200px;
+		margin-top: -10px;
+	}
+}
+
+@media screen and (max-width: 626px){
+
+	section.one{
+		height: 150px;
+	}
+	section.one .flex1{
+		display: block;
+	}
+	section.one .texto{
+		width: 100%;
+		text-align: center;
+	}	
+	section.one .botao{
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	}	
+	section.one .btnTexto{
+		float: none;
+		margin-left: 35%;
+	}	
+}
