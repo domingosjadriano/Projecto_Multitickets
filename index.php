@@ -25,7 +25,7 @@
 									<li><a href="#">SOBRE</a></li>
 									<li><a href="#">SERVIÇOS</a></li>
 									<li><a href="portfolio.php">PORTFOLIO</a></li>
-									<li><a href="#">CONTACTO</a></li>
+									<li><a href="#">CONTATO</a></li>
 								</ul>
 								<div class="rede">
 									<a href="#" style="color: orange;font-size: 20px;"><i class="fab fa-facebook"></i></a>
@@ -40,7 +40,7 @@
 									<li><a href="#">SOBRE</a></li>
 									<li><a href="#">SERVIÇOS</a></li>
 									<li><a href="portfolio.php">PORTFOLIO</a></li>
-									<li><a href="#">CONTACTO</a></li>
+									<li><a href="#">CONTATO</a></li>
 								</ul>
 
 								<div class="rede">
@@ -177,7 +177,7 @@
 						<div class="contacto">
 							<div class="info">
 								<h2>Atendimento</h2>
-								<p>(21)3455-5678</p>
+								<p>(21)0000-00000</p>
 							</div><!--info-->
 							<div class="info">
 								<h2>Contacto</h2>
@@ -192,7 +192,7 @@
 							</div><!--info-->
 						</div><!--contacto-->
 						<div class="txt2">
-							<p>Av. Queiroz Filho, 1560, Bloco Sabie, CJ. 410-CEP 05319-000 <br/>São Paulo, SP, Brasil</p>
+							<p>Av. Queiroz Filho, 1560, Bloco Sabie, CJ. 410-CEP 05319-000 <br/>São Paulo, SP, Angola</p>
 						</div><!--txt-->
 					</div><!--texto-->
 					<div class="espaco"></div>
